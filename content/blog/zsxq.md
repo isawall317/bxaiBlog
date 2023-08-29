@@ -6,13 +6,13 @@ description: "全国最大的AI付费社群"
 date: 2023-08-29
 ---
 
-![aipjQR](../../public/images/aipj418.jpg)
+![aipjQR](/images/aipj418.jpg)
 
 
 AI破局是很少数活跃的付费社群，还时不时有免费的AI航海实战活动等。
 
 我特意向俱乐部申请了一张优惠券，扫码后立减69元。
-![aipjdiscount](../../public/images/aipj-69.jpg)
+![aipjdiscount](/images/aipj-69.jpg)
 
 我自己是AI破局的初创合伙人，如果你想成为合伙人享受最顶级的服务，也可以私信我推荐。  
 
