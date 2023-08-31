@@ -58,6 +58,19 @@ const formattedDate = new Date(date).toLocaleDateString("en-us", {
         s.parentNode.insertBefore(hm, s);
       })();
     </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6T71KG5321"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-6T71KG5321");
+    </script>
   </head>
 
   <body class="max-w-3xl mx-auto min-h-screen px-6 sm:px-8">
