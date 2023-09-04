@@ -1,12 +1,14 @@
 type PageMeta = {
   title: string;
   description?: string;
+  keywords?: string;
   canonicalUrl?: string;
 };
 
 type PageOgMeta = {
   title: string; // page title
   description?: string; // page description
+  keywords?: string; // page keywords
   type: "website";
   url?: string; // site URL
   image?: string; // preview image
@@ -18,6 +20,7 @@ type PageOgMeta = {
 type PageTwitterMeta = {
   title: string; // same as og:title
   description?: string; // same as og:description
+  keywords?: string; // same as og:keywords
   card: "summary_large_image";
   site?: string; // twitter handle (@username) of blog owner
   creator?: string; // twitter handle (@username) of content owner (usually same as blog owner)
@@ -28,6 +31,7 @@ type PageTwitterMeta = {
 type BlogPostOgMeta = {
   title: string; // page title
   description?: string; // page description
+  keywords?: string; // page keywords
   type: "article";
   url?: string; // blog post url
   author?: string; // post author name
@@ -42,6 +46,7 @@ type BlogPostOgMeta = {
 type BlogPostTwitterMeta = {
   title: string; // same as blog post og:title
   description?: string; // same as blog post og:description
+  keywords?: string; // same as blog post og:keywords
   card: "summary_large_image";
   site?: string; // twitter handle (@username) of blog owner
   creator?: string; // twitter handle (@username) of content owner (usually same as blog owner)
@@ -52,6 +57,7 @@ type BlogPostTwitterMeta = {
 export function getPageMeta({
   title: pageTitle,
   description,
+  keywords,
   baseUrl,
   ogImageAbsoluteUrl,
   ogImageAltText,
@@ -62,6 +68,7 @@ export function getPageMeta({
 }: {
   title: string;
   description: string;
+  keywords?: string;
   baseUrl?: string;
   ogImageAbsoluteUrl?: string; // should always be absolute
   ogImageAltText?: string;
@@ -86,6 +93,7 @@ export function getPageMeta({
   const og: PageOgMeta = {
     title: pageTitle,
     description: description,
+    keywords,
     type: "website",
     url: baseUrl,
     image: ogImageAbsoluteUrl,
@@ -97,6 +105,7 @@ export function getPageMeta({
   const twitter: PageTwitterMeta = {
     title: pageTitle,
     description: description,
+    keywords,
     card: "summary_large_image",
     site: siteOwnerTwitterHandle,
     creator: contentAuthorTwitterHandle || siteOwnerTwitterHandle,
@@ -114,6 +123,7 @@ export function getPageMeta({
 export function getBlogPostMeta({
   title: pageTitle,
   description,
+  keywords,
   canonicalUrl,
   pageUrl,
   authorName,
@@ -127,6 +137,7 @@ export function getBlogPostMeta({
 }: {
   title: string;
   description: string;
+  keywords: string;
   canonicalUrl?: string;
   pageUrl?: string;
   authorName?: string;
@@ -148,12 +159,14 @@ export function getBlogPostMeta({
   const meta: PageMeta = {
     title: pageTitle,
     description: description,
+    keywords: keywords,
     canonicalUrl,
   };
 
   const og: BlogPostOgMeta = {
     title: pageTitle,
     description: description,
+    keywords:keywords,
     type: "article",
     url: pageUrl,
     author: authorName,
@@ -167,6 +180,7 @@ export function getBlogPostMeta({
   const twitter: BlogPostTwitterMeta = {
     title: pageTitle,
     description: description,
+    keywords: keywords,
     card: "summary_large_image",
     site: siteOwnerTwitterHandle,
     creator: contentAuthorTwitterHandle || siteOwnerTwitterHandle,

@@ -4,6 +4,7 @@ import {
   SITE_TITLE,
   SITE_DESCRIPTION,
   SITE_URL,
+  KEYWORDS,
   TWITTER_HANDLE,
 } from "../config";
 
@@ -17,9 +18,10 @@ const { title, description } = Astro.props;
 const { meta, og, twitter } = getPageMeta({
   title: title || SITE_TITLE,
   description: description || SITE_DESCRIPTION,
+  keywords: KEYWORDS,
   baseUrl: SITE_URL,
   ogImageAbsoluteUrl: `${SITE_URL}/images/og.png`,
-  ogImageAltText: "My fancy website",
+  ogImageAltText: "别学AI",
   ogImageWidth: 1200,
   ogImageHeight: 630,
   siteOwnerTwitterHandle: TWITTER_HANDLE,
