@@ -93,7 +93,7 @@ export function getPageMeta({
   const og: PageOgMeta = {
     title: pageTitle,
     description: description,
-    keywords,
+    keywords: keywords,
     type: "website",
     url: baseUrl,
     image: ogImageAbsoluteUrl,
@@ -105,7 +105,7 @@ export function getPageMeta({
   const twitter: PageTwitterMeta = {
     title: pageTitle,
     description: description,
-    keywords,
+    keywords:keywords,
     card: "summary_large_image",
     site: siteOwnerTwitterHandle,
     creator: contentAuthorTwitterHandle || siteOwnerTwitterHandle,
@@ -166,7 +166,7 @@ export function getBlogPostMeta({
   const og: BlogPostOgMeta = {
     title: pageTitle,
     description: description,
-    keywords:keywords,
+    keywords: keywords,
     type: "article",
     url: pageUrl,
     author: authorName,

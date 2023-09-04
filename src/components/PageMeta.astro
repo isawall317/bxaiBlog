@@ -11,6 +11,7 @@ import {
 export interface Props {
   title?: string;
   description?: string;
+  keywords?: string;
 }
 
 const { title, description } = Astro.props;
@@ -37,6 +38,7 @@ const { meta, og, twitter } = getPageMeta({
 <!-- Open Graph / Facebook -->
 {og.title && <meta property="og:title" content={og.title} />}
 {og.description && <meta property="og:description" content={og.description} />}
+{og.keywords && <meta property="og:keywords" content={og.keywords} />}
 {og.type && <meta property="og:type" content={og.type} />}
 {og.url && <meta property="og:url" content={og.url} />}
 {og.image && <meta property="og:image" content={og.image} />}
