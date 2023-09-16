@@ -10,6 +10,8 @@ date: 2023-08-29
 
 AI破局是很少数活跃的付费社群，还时不时有免费的AI航海实战活动等。
 
+![socialproof](/public/images/socialproof.png)
+
 我特意向俱乐部申请了一张优惠券，扫码后立减69元。如果过期，请等待更新，或联系豆茉君索取最新优惠券。
 
 ![aipjdiscount](/images/aipj-69.jpg)  
