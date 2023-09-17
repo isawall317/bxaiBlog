@@ -80,4 +80,4 @@ void
 在进行任务输出时，格式严格参考<OutputFormat>，体会<Exmaples>的参考价值。
 ```
 十年陪跑，商业体系，创业案例等，加入一堂大家庭：
-![yitang](/public/images/yitangQR.jpg)
+![yitang](/images/yitangQR.jpg)

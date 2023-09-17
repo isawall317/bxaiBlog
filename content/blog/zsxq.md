@@ -6,12 +6,12 @@ description: "全国最大的AI付费社群"
 date: 2023-09-17
 ---
 
-![aibook](/public/images/aibook.png)
+![aibook](/images/aibook.png)
 
-![aipub](/public/images/aipub.png)
+![aipub](/images/aipub.png)
 
-![fiveyears](/public/images/5years.png)
+![fiveyears](/images/5years.png)
 
-![publp](/public/images/pubLP.png)
+![publp](/images/pubLP.png)
 
-![lpdetial](/public/images/LPdetail.png)
+![lpdetial](/images/LPdetail.png)
