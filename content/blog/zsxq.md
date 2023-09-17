@@ -3,22 +3,15 @@ external: false
 draft: false
 title: "置顶推荐|全国最大的AI付费社群：AI破局俱乐部"
 description: "全国最大的AI付费社群"
-date: 2023-08-29
+date: 2023-09-17
 ---
 
-![aipjQR](/images/aipj418.jpg)  
+![aibook](/public/images/aibook.png)
 
-AI破局是很少数活跃的付费社群，还时不时有免费的AI航海实战活动等。
+![aipub](/public/images/aipub.png)
 
-![socialproof](/public/images/socialproof.png)
+![fiveyears](/public/images/5years.png)
 
-我特意向俱乐部申请了一张优惠券，扫码后立减69元。如果过期，请等待更新，或联系豆茉君索取最新优惠券。
+![publp](/public/images/pubLP.png)
 
-![aipjdiscount](/images/aipj-69.jpg)  
-
-我自己是AI破局的初创合伙人，如果你想成为合伙人享受最顶级的服务，也可以私信我推荐。  
-
-星球合伙人相当于最高级VIP，成为合伙人以后，信息更浓缩，星球任何活动都有优先权益，更适合更在意时间价值的小伙伴们。
-
-
-通过我的二维码扫码加入星球的朋友，评论或私信我，送一个额外权益就是可以加入我个人的AI公众号微信群。
+![lpdetial](/public/images/LPdetail.png)

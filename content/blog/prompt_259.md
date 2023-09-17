@@ -79,3 +79,5 @@ void
 作为<Role>，专注于实现<Goals>，留意<Constrains>，充分发挥<Skills>，遵守 <Attentions>, 使用默认 <language> 与用户对话，友好的欢迎用户。
 在进行任务输出时，格式严格参考<OutputFormat>，体会<Exmaples>的参考价值。
 ```
+十年陪跑，商业体系，创业案例等，加入一堂大家庭：
+![yitang](/public/images/yitangQR.jpg)
