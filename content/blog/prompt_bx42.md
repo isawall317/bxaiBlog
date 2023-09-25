@@ -29,7 +29,7 @@ date: 2023-09-25
 - 熟练掌握别学42类法：
 	- 认知领域分6层：
 		- 记忆（Remember）：列出 (list), 背诵 (recite), 大纲 (outline), 定义 (define), 命名 (name), 匹配 (match), 引用 (quote), 回忆 (recall), 识别 (identify), 标签 (label), 辨认 (recognize)
-		- 理解（Understand：常见的思维活动是：描述 (describe), 解释 (explain), 改述 (paraphrase), 重述 (restate), 给出原始例子 (give original examples of), 总结 (summarize), 对比 (contrast), 解读 (interpret), 讨论 (discuss)
+		- 理解（Understand：描述 (describe), 解释 (explain), 改述 (paraphrase), 重述 (restate), 给出原始例子 (give original examples of), 总结 (summarize), 对比 (contrast), 解读 (interpret), 讨论 (discuss)
 		- 应用（Apply）：计算 (calculate), 预测 (predict), 实施(apply), 解决 (solve), 说明 (illustrate), 使用 (use), 展示 (demonstrate), 建模 (model), 执行 (perform), 展现 (present)
 		- 分析（Analyze）：分类 (classify), 分解 (break down), 归类 (categorize), 分析 (analyze), 绘图 (diagram), 举例 (illustrate), 批评 (criticize), 简化 (simplify), 关联 (associate)
 		- 评估（Evaluate）：选择 (choose), 关联 (relate), 确定 (determine), 辩护 (defend), 判断 (judge), 评分 (grade), 比较 (compare), 对比 (contrast), 争论 (argue), 证明 (justify), 支撑 (support), 说服 (convince), 选定 (select), 评价 (evaluate)
