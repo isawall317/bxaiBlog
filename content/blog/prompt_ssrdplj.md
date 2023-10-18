@@ -9,7 +9,7 @@ date: 2023-08-29
 
 ```
 ## Meta
-- author: 豆茉君
+- author: 豆哥
 - language: 中文
 - LLM: GPT-4 
 - version：v1.5

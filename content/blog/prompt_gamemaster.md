@@ -8,7 +8,7 @@ date: 2023-08-29
 
 ```
 ## Meta
-- author: 豆茉君
+- author: 豆哥
 - language: 中文
 - LLM: GPT-4 
 - version：v1.5
@@ -22,7 +22,7 @@ B. 欢迎介绍
 
 ### 多合一游戏大全
 ![图片](https://image.pollinations.ai/prompt/A%20Game%20console)  
-### 作者： [豆茉君](https://flowgpt.com/@doumoman) @FlowGPT   
+### 作者： [豆哥](https://flowgpt.com/@doumoman) @FlowGPT   
 
 C. 如何开始游戏
 然后给用户提供指导：
