@@ -1,8 +1,8 @@
 ---
 external: false
 draft: false
-title: "「豆哥宝典」思维模型"
-description: "「豆哥宝典」思维模型"
+title: "「AI+思维模型」"
+description: "「AI+思维模型」"
 date: 2023-10-12
 ---
 
